@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(29, 31, 53);
+    color: #FF9900;
+}
+
+header,
+nav,
+main,
+footer,
+aside {
+    padding:1em;
+    flex:auto;
+}
+
+header {
+    background-color: #FF9900;
+    color:rgb(29, 31, 53);
+    font-weight: bold;
+    border: 2px solid; 
+    border-color: blue;
+}
+
+#titre{
+    width:20%;
+  margin:0 auto;
+  text-align:center;
+}
+
+header img{
+    opacity:0.7;
+    border:hidden;
+    display:flex;
+
+}
+
+header img:hover{
+    opacity:1;
+    border:2px solid;
+    border-color:blue;
+}
+
+#divCentral {
+    display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+    margin: auto;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+nav {
+	flex : auto;
+    background-color: #FF9900;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 2em;
+    border: 2px solid; 
+    border-color: blue;
+}
+
+nav a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #FAFAD2;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+main {
+	flex : 10;
+    background-color: rgb(29, 31, 53);
+    padding-left: 6em;
+    padding-right:6em;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+    background-color: #FF9900;
+    color:rgb(29, 31, 53);
+    border: 2px solid; 
+    border-color: blue;
+}
+
+footer img{
+    opacity:0.7;
+    border: hidden;
+}
+
+footer img:hover{
+    opacity:1;
+    border: 2px solid; 
+    border-color: blue;
+}
+
+img {
+    border: 2px solid; 
+    border-color: blue;
+}
+
+#description {
+    background-color: rgb(255, 187, 0);
+    color:black;
+    text-align: justify;
+    font-style: italic;
+    padding: 1em;
+    border-left: solid 1em;
+    border-color:rgb(255,80,0);
+}
+
+aside{
+    flex:inherit;
+    background-color: #FF9900;
+    color:rgb(29, 31, 53);
+    margin: 1em 0em 1em 1em;
+    border: 2px solid; 
+    border-color: blue;
+    justify-content:center;
+    padding-top:0;
+}
+
+aside div{
+    color:rgb(29, 31, 53);
+    font-weight:bold;
+    border:solid 2px;
+    border-color:rgb(29, 31, 53);
+    box-sizing:content-box;
+    margin-top:1em;
+}
+
+aside table{
+    width:100%;
+}
+
+aside #head{
+    background-color:rgb(29, 31, 53);
+    color: #FF9900;
+    text-align:center;
+    width:100%;
+}
+
+aside td{
+     background-color:#FF9900;
+    color: rgb(29, 31, 53);
+    text-align:center;
+    width:100%;
+}
